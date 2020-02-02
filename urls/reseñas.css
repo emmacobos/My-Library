@@ -1,0 +1,351 @@
+body{
+    background-image: image("C:\Users\Zanetta Pro\Desktop\Programacion\paginas\fotos\background.jpg");
+    margin: 0;
+
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+         
+.header{
+    background: rgb(117, 120, 118,0.3);
+}
+    .t-stroke {
+    
+      color: transparent;
+    
+      -moz-text-stroke-width: 2px;
+    
+      -webkit-text-stroke-width: 2px;
+    
+      -moz-text-stroke-color: #000000;
+    
+      -webkit-text-stroke-color: #ffffff;
+      font-family: 'Solway', serif;
+    
+    }
+    .t-shadow {
+        
+        text-shadow: 5px 4px RGB(198, 251, 255);
+        text-align: center;
+        line-height: 225%;
+        height: 8vh;
+        letter-spacing: 1em;
+    }
+    .title-header{
+        text-decoration: none;
+        margin-left: auto;
+    margin-right: auto;
+    }
+        .wrapper {
+        
+        overflow:hidden;
+        justify-content: space-between;
+        background: RGB(198, 251, 255,0.4);
+        width: 100%;
+        
+        }
+    
+
+    nav > ul {
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    }
+    nav ul li {
+    
+        font-family: 'Comfortaa', cursive;
+        font-size: 130%;
+    }
+    nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    
+    }
+    nav ul li:hover {
+    background: transparent;
+    }
+    nav ul li a:hover{
+    color: #333839;
+    }
+   
+
+        .title-books{
+    margin-left: 9%;
+    margin-top: 1%;
+    color: black;
+    font-family: 'Courgette', cursive;
+    font-size: 350%;
+}
+            .title-teenagers{
+                font-family: 'Damion', cursive;
+
+                text-align: center;
+                margin-bottom: 2%;
+            color: black;
+            font-size: 250%;
+            }
+.reviews-teenagers{
+    display: block;
+    flex-wrap: wrap;
+}
+div{
+    display: flex;
+}
+.paper-towns-div{
+
+}
+.into-white-div{
+justify-content: flex-end;
+}
+.lordof-div{
+
+}
+.storm-div{
+justify-content: flex-end;
+}
+.teen-div{
+
+}
+
+.ir-arriba {
+    display:none;
+    padding:20px;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    background: RGB(198, 251, 255);
+    border-radius: 70%;
+}
+.ir-arriba:hover{
+    background:RGB(198, 251, 255,0.6);
+    border-radius: 70%
+}
+
+.allthe-div{
+justify-content: flex-end;
+}
+.andshewas-div{
+
+}
+.tworoads-div{
+justify-content: flex-end;
+}
+.paper-towns-img{
+    width: 20%;
+    object-fit: cover;
+    margin-left: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+
+.paper-towns-text{
+    width: 36%;
+    font-size: 150%;
+    margin-left: 6%;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.into-white-img{
+    width: 20%;
+    object-fit: cover;
+    margin-right: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.into-white-text{
+    width: 43%;
+    font-size: 150%;
+    margin-right: 6%;
+    text-align: center;
+    align-self: center;
+    margin-top: 2%;
+}
+.lordof-img{
+    width: 20%;
+    object-fit: cover;
+    margin-left: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.lordof-text{
+    width: 36%;
+    font-size: 150%;
+    margin-left: 6%;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.storm-img{
+    width: 20%;
+    object-fit: cover;
+    margin-right: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.storm-text{
+    width: 45%;
+    font-size: 150%;
+    margin-right: 6%;
+    text-align: center;
+    align-self: center;
+    margin-top: 2%;
+}
+.teen-img{
+    width: 20%;
+    object-fit: cover;
+    margin-left: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.teen-text{
+    width: 43%;
+    font-size: 150%;
+    margin-left: 6%;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.allthe-img{
+    width: 20%;
+    object-fit: cover;
+    margin-right: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.allthe-text{
+    width: 39%;
+    font-size: 150%;
+    margin-right: 6%;
+    text-align: center;
+    align-self: center;
+    margin-top: 2%;
+}
+.andshewas-img{
+    width: 20%;
+    object-fit: cover;
+    margin-left: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.andshewas-text{
+    width: 42%;
+    font-size: 150%;
+    margin-left: 6%;
+    align-self: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.tworoads-img{
+    width: 20%;
+    object-fit: cover;
+    margin-right: 15%;
+    image-rendering: pixelated;
+    margin-top: 2%;
+}
+.tworoads-text{
+    width: 43%;
+    font-size: 150%;
+    margin-right: 6%;
+    text-align: center;
+    align-self: center;
+    margin-top: 2%;
+}
+
+
+
+
+
+            .footer{
+                display: flex;
+                justify-content: center;
+                margin-top: 4%;
+                    }
+                    .item-footer1{
+                        display: flex;
+                        grid-column: 1/3;
+                        grid-row: 4/4;
+                        height: 40vh;
+                        width: 43vw;
+                        justify-content: space-between;
+                        background: transparent;
+                        margin-left: 0;
+                        margin-bottom: 1%;
+                        }
+                        .title-description{
+                            font-family: 'Didact Gothic', sans-serif;
+                            font-size: 170%;
+                            text-shadow: none;
+                            text-transform: none;
+                            letter-spacing: normal;
+                        }
+                        .description-information{
+                        margin-left: 7%;
+                        text-align: center;
+                        display: grid;
+                        align-items: center;
+                        font-size: 120%;
+                        font-family: 'Julius Sans One', sans-serif;
+                        color: black;
+                        }
+                        .person-description{
+                        text-align: right;
+                        }
+                        .item-footer2{
+                        width: 42vw;
+                        display: flex;
+                        grid-column: 2/3;
+                        grid-row: 4/4;
+                        height: 40vh;
+                        background: transparent;
+                        margin-left: 0;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        }
+                        
+                        .rrss{
+                        display: grid;
+                        text-align: right;
+                        }
+                        .rrss-title{
+                        margin-bottom: 7%;
+                        font-family: 'Didact Gothic', sans-serif;
+                        color: black;
+                        }
+                        .logos-rrss{
+                        display: flex;
+                        }
+                        .logo{
+                        width: 70%;
+                            display:block;
+                            margin-left:auto;
+                            margin-right:auto;
+                            transform:scale(1);
+                            -ms-transform:scale(1);
+                            -moz-transform:scale(1);
+                            -webkit-transform:scale(1);
+                            -o-transform:scale(1);
+                            transition: all 500ms ease-in-out;
+                            -webkit-transition: all 500ms ease-in-out;
+                            -moz-transition: all 500ms ease-in-out; 
+                            -ms-transition: all 500ms ease-in-out;
+                            -o-transition: all 500ms ease-in-out; 
+                        }
+                    
+                        .logo:hover{
+                                transform:scale(1.2);
+                                -ms-transform:scale(1.2);
+                                -moz-transform:scale(1.2); 
+                                -webkit-transform:scale(1.2);
+                                -o-transform:scale(1.2);
+                            }
+                        
